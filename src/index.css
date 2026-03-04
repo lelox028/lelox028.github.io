@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #98971a;
+  --color-gb-bg0: #fbf1c7;
+  --color-gb-bg1: #f2e5bc;
+  --color-gb-bg2: #ebdbb2;
+  --color-gb-fg0: #3c3836;
+  --color-gb-fg1: #665c54;
+  --color-gb-red: #cc241d;
+  --color-gb-orange: #d65d0e;
+  --color-gb-yellow: #d79921;
+  --color-gb-blue: #458588;
+  --color-gb-purple: #b16286;
+  --color-gb-aqua: #689d6a;
+
+  --font-display: "Silkscreen", cursive;
+  --font-body: "VT323", monospace;
+
+  --radius: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-full: 0px;
+}
+
+body {
+  font-family: 'VT323', monospace;
+  background-image:
+    linear-gradient(45deg, #f2e5bc 25%, transparent 25%),
+    linear-gradient(-45deg, #f2e5bc 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #f2e5bc 75%),
+    linear-gradient(-45deg, transparent 75%, #f2e5bc 75%);
+  background-size: 4px 4px;
+  background-color: #fbf1c7;
+  color: #665c54;
+}
+
+.pixel-border {
+  border: 4px solid #3c3836;
+  box-shadow:
+    inset -4px -4px 0px 0px rgba(0,0,0,0.05),
+    4px 4px 0px 0px #3c3836;
+  position: relative;
+}
+
+.pixel-button {
+  border: 4px solid #3c3836;
+  box-shadow:
+    inset -4px -4px 0px 0px rgba(0,0,0,0.15),
+    inset 4px 4px 0px 0px rgba(255,255,255,0.2);
+  image-rendering: pixelated;
+}
+
+.pixel-button:active {
+  box-shadow: inset 4px 4px 0px 0px rgba(0,0,0,0.1);
+  transform: translate(2px, 2px);
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Silkscreen', cursive;
+  color: #3c3836;
+}
+
+.pixelated-img {
+  image-rendering: pixelated;
+  border: 4px solid #3c3836;
+}
