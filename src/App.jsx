@@ -97,7 +97,7 @@ function App() {
                   <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/SPM.png" />
                 </div>
                 <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Cloud Architecture</p>
+                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Full-stack Dev</p>
                   <h3 className="mb-2 text-2xl font-bold">Study Plan Manager</h3>
                   <p className="text-lg leading-relaxed">Companion designed to help students manage their study program and schedule, allowing for a better and more optimized use of their time. </p>
                 </div>
