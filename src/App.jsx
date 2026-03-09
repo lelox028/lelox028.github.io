@@ -9,7 +9,7 @@ function App() {
               <span className="material-symbols-outlined font-bold">code</span>
             </div>
             <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">
-              Giuli<span className="text-primary">'s</span> portofolio
+              Giuliano<span className="text-primary">'s</span> portofolio
             </span>
           </div>
           <div className="hidden items-center gap-8 md:flex">
@@ -76,8 +76,8 @@ function App() {
                 <h2 className="mb-4 text-3xl font-bold tracking-tight uppercase">Selected Work</h2>
                 <p className="text-xl">A collection of software engineering projects focused on scalability, performance, and intuitive user interfaces.</p>
               </div>
-              <a className="group flex items-center gap-2 text-xl font-bold text-primary" href="#">
-                Explore All Projects
+              <a className="group flex items-center gap-2 text-xl font-bold text-primary" href="https://github.com/lelox028">
+                Explore All My Projects
                 <span className="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
               </a>
             </div>
