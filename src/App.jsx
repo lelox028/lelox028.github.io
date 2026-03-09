@@ -84,7 +84,7 @@ function App() {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-primary/10">
-                  <img alt="Guia Puntana" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/guiaPuntana.png" />
+                  <img alt="Guia Puntana" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/guiaPuntana.png" />
                 </div>
                 <div className="px-2">
                   <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-orange">Nextjs &amp; TypeScript</p>
@@ -94,7 +94,7 @@ function App() {
               </div>
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-gb-orange/10">
-                  <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/SPM.png" />
+                  <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/SPM.png" />
                 </div>
                 <div className="px-2">
                   <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Cloud Architecture</p>
@@ -104,7 +104,7 @@ function App() {
               </div>
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-gb-purple/10">
-                  <img alt="Healthcare Portal" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/tramitesSanLuis.png" />
+                  <img alt="Healthcare Portal" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/tramitesSanLuis.png" />
                 </div>
                 <div className="px-2">
                   <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">Full-stack Dev</p>
