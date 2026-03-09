@@ -9,7 +9,7 @@ function App() {
               <span className="material-symbols-outlined font-bold">code</span>
             </div>
             <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">
-              Shinji<span className="text-primary">.</span>dev
+              Giuli<span className="text-primary">'s</span> portofolio
             </span>
           </div>
           <div className="hidden items-center gap-8 md:flex">
@@ -43,7 +43,8 @@ function App() {
                 <span className="text-primary">with a smile.</span>
               </h1>
               <p className="max-w-lg text-2xl leading-relaxed">
-                Hi, I'm Shinji. A software developer dedicated to crafting clean, functional, and user-centric solutions. I combine technical precision with an approachable perspective.
+                Hi, I'm Giuliano! A Backend-focused fullstack developer who cares about architecture and clean decisions.
+                I enjoy working with teams and turning ideas into well-crafted software.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a className="flex h-14 items-center justify-center pixel-button bg-primary px-8 text-xl font-bold text-gb-bg0 transition-all" href="#work">
@@ -58,7 +59,7 @@ function App() {
               <div className="absolute -inset-4 bg-primary/10 blur-xl"></div>
               <div className="relative aspect-[4/3] overflow-hidden pixel-border bg-gb-bg2">
                 <img
-                  alt="Shinji's Studio"
+                  alt="Giuliano's Studio"
                   className="h-full w-full object-cover opacity-90 pixelated-img"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDm_0_DccnX8zLyQE_6YEfLkOUn6lMfyOH-7kHZ1ml45tlV41NEpdUnuEwgsI8V7B-HiEXHsghGx2vZN-MwPnvOnuPsGhTIh1TOU7aSEBNTPcmWrpKWizSW3iE-aYvziepVoSkXGjvyyc-Dd0I5Sp026b9YL5MQjrnD2ubAoXQ07K9IhGt8v9vh7ukSxVWBP-0J53ZTwt-uUGfXI6pmQy_Kncs16u2BCETwSvWGLWwx2tf5_rGbCjTGeQqgvP8hEE8O-7L3keHTzr4"
                 />
@@ -83,32 +84,32 @@ function App() {
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-primary/10">
-                  <img alt="Enterprise Analytics" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS-F-qGNxHDZvc7aLvwBb9tgeN9NTDx5NAaR4KYscu1YZKyVuGM5qDheLNCaisdc_KyvBPxjbb8P9aOkMKirFc1tJDB48Buosi6uUvm-BGYuNGVyvXZtRggyDpKEv8L59eXaN0O2iXr8tsphD1SyABpEycw4J5XAsgYqO9kcSyLabjV62pREIOy7QijDh9XyIo0bGvng5wAaqxnPYO0S19LF-KYeM438N1yMR8cA1DSyxKDsMmmuO186qf-NfeJll9Ce4d3nDRPxxX" />
+                  <img alt="Guia Puntana" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/guiaPuntana.png" />
                 </div>
                 <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">React &amp; TypeScript</p>
-                  <h3 className="mb-2 text-2xl font-bold">Enterprise Analytics Suite</h3>
-                  <p className="text-lg leading-relaxed">A high-performance dashboard designed for real-time visualization of complex data streams.</p>
+                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-orange">Nextjs &amp; TypeScript</p>
+                  <h3 className="mb-2 text-2xl font-bold">Guia Puntanta</h3>
+                  <p className="text-lg leading-relaxed">Open-source platform designed to connect entrepreneurs and local service providers from San Luis, Argentina, with citizens seeking reliable services directly and free of charge.</p>
                 </div>
               </div>
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-gb-orange/10">
-                  <img alt="E-commerce Framework" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQzsn6FuHWSnV-i0kvMOCRLDmWISgNghE-skU6lNp15LwMg27H7hSNfdMDu78bOiP0YkjVQ35V7SU4lJfjMPQMYNpRJnRwKoM618yaU6kne43Fjv6ZiMDHpvjrqosektZAnzxmLJ1z75oCZhIKN3FbhpA3nB33ItnVkX8HPU676usyonTMkjzbIs6fGlibTJVdnKT7fQ8aCJNOJ3mmlUKNctDMulAb-Ig3ox3WdE73gjDOI2dYSIxIeuGq9nTiaObCxpvR75z7Xce2" />
+                  <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/SPM.png" />
                 </div>
                 <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-orange">Cloud Architecture</p>
-                  <h3 className="mb-2 text-2xl font-bold">Modular Shopping Engine</h3>
-                  <p className="text-lg leading-relaxed">Headless commerce solution optimized for lightning-fast edge delivery and global scaling.</p>
+                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Cloud Architecture</p>
+                  <h3 className="mb-2 text-2xl font-bold">Study Plan Manager</h3>
+                  <p className="text-lg leading-relaxed">Companion designed to help students manage their study program and schedule, allowing for a better and more optimized use of their time. </p>
                 </div>
               </div>
               <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
                 <div className="aspect-square overflow-hidden pixel-border bg-gb-purple/10">
-                  <img alt="Healthcare Portal" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDADv4t82-hAFtQRlkHUcGY0FppVFKN3-pKzMNcO87H4ItKz1mtszN8tdop3FjQMyURMRGsUlu4FcuvEqoIUlFm3Ql-kn0qhOFsCqcKBsRd8VcegzXivPItb2JTTh0MKgj59ND_M4KUure75bD1RKgF7azTbLt_qe_6Unw1kPK0ZesgCZZMMo7E04WMoy5dFFAfl0I0m5pOTSPIBUc-F615lpSINt7h5ZyCIrDtBaz3SH66C0XhajDORgu-ZrkwOxTJQo3AbuCUkZ80" />
+                  <img alt="Healthcare Portal" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../dist/img/tramitesSanLuis.png" />
                 </div>
                 <div className="px-2">
                   <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">Full-stack Dev</p>
-                  <h3 className="mb-2 text-2xl font-bold">Healthcare Data Portal</h3>
-                  <p className="text-lg leading-relaxed">Secure, HIPAA-compliant patient management system with integrated tele-health features.</p>
+                  <h3 className="mb-2 text-2xl font-bold">San Luis Tramites</h3>
+                  <p className="text-lg leading-relaxed">Web platform that aggregates and organizes information about public procedures in San Luis, Argentina, helping citizens quickly find requirements, documentation, and steps for completing government services.</p>
                 </div>
               </div>
             </div>
@@ -121,60 +122,88 @@ function App() {
             <div>
               <h2 className="mb-6 text-4xl font-bold tracking-tight uppercase">Core Expertise</h2>
               <p className="mb-10 text-2xl leading-relaxed">
-                I specialize in building robust software ecosystems. My approach balances modern technical requirements with long-term maintainability.
+                I'm a full stack developer focused on building practical and maintainable software.
+                My experience ranges from backend development with Java and Spring Boot to full stack
+                web applications using React and Node.js. I enjoy designing systems, solving real
+                problems, and contributing to open source projects that make technology more accessible.
               </p>
+
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+
                 <div className="pixel-border bg-gb-bg2 p-6">
-                  <span className="material-symbols-outlined mb-4 text-4xl text-primary">layers</span>
-                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Frontend Architecture</h4>
-                  <p className="text-lg">React, Vue, TypeScript, Tailwind CSS, Responsive Design.</p>
+                  <span className="material-symbols-outlined mb-4 text-4xl text-primary">code</span>
+                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Frontend Development</h4>
+                  <p className="text-lg">
+                    React, HTML, CSS, SCSS, responsive interfaces and modern web UI development.
+                  </p>
                 </div>
+
                 <div className="pixel-border bg-gb-bg2 p-6">
                   <span className="material-symbols-outlined mb-4 text-4xl text-gb-purple">dns</span>
-                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Backend Infrastructure</h4>
-                  <p className="text-lg">Node.js, Python, PostgreSQL, RESTful APIs, GraphQL.</p>
+                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Backend Engineering</h4>
+                  <p className="text-lg">
+                    Java, Spring Boot, Node.js, Express, REST APIs and scalable backend services.
+                  </p>
                 </div>
+
                 <div className="pixel-border bg-gb-bg2 p-6">
-                  <span className="material-symbols-outlined mb-4 text-4xl text-gb-orange">cloud</span>
-                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Cloud &amp; DevOps</h4>
-                  <p className="text-lg">AWS, Docker, CI/CD Pipelines, Serverless Computing.</p>
+                  <span className="material-symbols-outlined mb-4 text-4xl text-gb-orange">storage</span>
+                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Data & Systems</h4>
+                  <p className="text-lg">
+                    SQL, MongoDB, data modeling and system design for real-world applications.
+                  </p>
                 </div>
+
                 <div className="pixel-border bg-gb-bg2 p-6">
-                  <span className="material-symbols-outlined mb-4 text-4xl text-gb-blue">psychology</span>
-                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Problem Solving</h4>
-                  <p className="text-lg">Algorithm Design, System Optimization, Code Auditing.</p>
+                  <span className="material-symbols-outlined mb-4 text-4xl text-gb-blue">terminal</span>
+                  <h4 className="mb-2 text-xl font-bold text-gb-fg0">Linux & Development Tools</h4>
+                  <p className="text-lg">
+                    Linux environments, Git workflows, Docker and automation with shell scripting.
+                  </p>
                 </div>
+
               </div>
             </div>
+
             <div className="relative">
               <div className="flex flex-col gap-6">
+
                 <div className="flex items-center gap-4 pixel-border bg-gb-bg2 p-6">
-                  <div className="flex h-14 w-14 items-center justify-center pixel-border bg-primary text-gb-bg0">
-                    <span className="material-symbols-outlined text-3xl">verified</span>
+                  <div className="flex h-14 w-20 items-center justify-center pixel-border bg-primary text-gb-bg0">
+                    <span className="material-symbols-outlined text-3xl">hub</span>
                   </div>
                   <div>
-                    <p className="text-xl font-bold text-gb-fg0">Clean Code Advocate</p>
-                    <p className="text-lg">Focusing on readability and modularity.</p>
+                    <p className="text-xl font-bold text-gb-fg0">Open Source Oriented</p>
+                    <p className="text-lg">
+                      Building community-focused tools through collaborative projects like SimpleDevsSL.
+                    </p>
                   </div>
                 </div>
+
                 <div className="ml-8 flex items-center gap-4 pixel-border bg-gb-bg2 p-6">
-                  <div className="flex h-14 w-14 items-center justify-center pixel-border bg-gb-purple text-gb-bg0">
-                    <span className="material-symbols-outlined text-3xl">group</span>
+                  <div className="flex h-14 w-20 items-center justify-center pixel-border bg-gb-purple text-gb-bg0">
+                    <span className="material-symbols-outlined text-3xl">groups</span>
                   </div>
                   <div>
-                    <p className="text-xl font-bold text-gb-fg0">Collaborative Partner</p>
-                    <p className="text-lg">Working seamlessly with designers and PMs.</p>
+                    <p className="text-xl font-bold text-gb-fg0">Team Leadership</p>
+                    <p className="text-lg">
+                      Experience mentoring junior developers and coordinating small development teams.
+                    </p>
                   </div>
                 </div>
+
                 <div className="flex items-center gap-4 pixel-border bg-gb-bg2 p-6">
-                  <div className="flex h-14 w-14 items-center justify-center pixel-border bg-gb-orange text-gb-bg0">
-                    <span className="material-symbols-outlined text-3xl">speed</span>
+                  <div className="flex h-14 w-20 items-center justify-center pixel-border bg-gb-orange text-gb-bg0">
+                    <span className="material-symbols-outlined text-3xl">psychology</span>
                   </div>
                   <div>
-                    <p className="text-xl font-bold text-gb-fg0">Performance Driven</p>
-                    <p className="text-lg">Ensuring products run fast for everyone.</p>
+                    <p className="text-xl font-bold text-gb-fg0">Problem Driven Development</p>
+                    <p className="text-lg">
+                      Focused on solving real-world problems with simple, reliable and maintainable software.
+                    </p>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -189,24 +218,24 @@ function App() {
               <div className="relative flex flex-col md:flex-row md:justify-between">
                 <div className="md:w-[45%] pixel-border bg-gb-bg2 p-6">
                   <div className="mb-2 text-lg font-bold text-primary">2021 — Present</div>
-                  <h3 className="mb-2 text-2xl font-bold">Senior Software Engineer</h3>
-                  <p className="text-lg">Leading full-stack initiatives for global SaaS products, mentoring junior developers, and optimizing deployment architectures.</p>
+                  <h3 className="mb-2 text-2xl font-bold">Software Developer (Backend / Full Stack) & Open Source Initiative</h3>
+                  <p className="text-lg">Collaborative initiative focused on developing open source software solutions for real-world community problems, aiming to provide simple and accessible tools for everyday use.</p>
                 </div>
                 <div className="absolute left-[-6px] top-6 h-4 w-4 bg-primary border-2 border-gb-fg0 md:left-1/2 md:ml-[-8px]"></div>
               </div>
               <div className="relative flex flex-col md:flex-row md:justify-between">
                 <div className="md:order-last md:w-[45%] pixel-border bg-gb-bg2 p-6">
-                  <div className="mb-2 text-lg font-bold text-primary">2018 — 2021</div>
-                  <h3 className="mb-2 text-2xl font-bold">Full Stack Developer</h3>
-                  <p className="text-lg">Focused on building secure financial management tools and migrating legacy systems to modern React-based frameworks.</p>
+                  <div className="mb-2 text-lg font-bold text-primary">Feb 2021 – Apr 2024</div>
+                  <h3 className="mb-2 text-2xl font-bold">Tutor</h3>
+                  <p className="text-lg">Delivered programming tutoring sessions and courses, participating in internal and external company training programs.</p>
                 </div>
                 <div className="absolute left-[-6px] top-6 h-4 w-4 bg-primary border-2 border-gb-fg0 md:left-1/2 md:ml-[-8px]"></div>
               </div>
               <div className="relative flex flex-col md:flex-row md:justify-between">
                 <div className="md:w-[45%] pixel-border bg-gb-bg2 p-6">
-                  <div className="mb-2 text-lg font-bold text-primary">2016 — 2018</div>
-                  <h3 className="mb-2 text-2xl font-bold">Frontend Engineer</h3>
-                  <p className="text-lg">Specialized in UI/UX implementation and accessibility standards for high-traffic healthcare portals.</p>
+                  <div className="mb-2 text-lg font-bold text-primary">Feb 2021 – Apr 2024</div>
+                  <h3 className="mb-2 text-2xl font-bold">Software Developer (Full Stack / Backend)</h3>
+                  <p className="text-lg">Worked as a full stack web developer, actively contributing to technical leadership responsibilities.</p>
                 </div>
                 <div className="absolute left-[-6px] top-6 h-4 w-4 bg-primary border-2 border-gb-fg0 md:left-1/2 md:ml-[-8px]"></div>
               </div>
@@ -225,20 +254,20 @@ function App() {
                 Whether you have a specific project in mind or just want to say hi, I'm always happy to connect and talk shop.
               </p>
               <div className="flex flex-col items-center justify-center gap-8 md:flex-row">
-                <a className="flex items-center gap-3 pixel-button bg-primary px-8 py-4 text-2xl font-bold text-gb-bg0 transition-all" href="mailto:hello@shinji.dev">
+                <a className="flex items-center gap-3 pixel-button bg-primary px-8 py-4 text-2xl font-bold text-gb-bg0 transition-all" href="mailto:giulianopascarelli@gmail.com">
                   <span className="material-symbols-outlined">mail</span>
-                  hello@shinji.dev
+                  giulianopascarelli@gmail.com
                 </a>
-                <a className="flex items-center gap-3 pixel-button border-4 border-gb-bg0 bg-transparent px-8 py-4 text-2xl font-bold transition-all hover:bg-gb-bg0 hover:text-gb-fg0" href="#">
+                <a className="flex items-center gap-3 pixel-button border-4 border-gb-bg0 bg-transparent px-8 py-4 text-2xl font-bold transition-all hover:bg-gb-bg0 hover:text-gb-fg0" href="/cv.pdf" download>
                   <span className="material-symbols-outlined">description</span>
                   Download CV
                 </a>
               </div>
             </div>
             <div className="flex gap-10 text-xl font-bold text-gb-bg2">
-              <a className="transition-colors hover:text-primary" href="#">LinkedIn</a>
-              <a className="transition-colors hover:text-primary" href="#">GitHub</a>
-              <a className="transition-colors hover:text-primary" href="#">Twitter</a>
+              <a className="transition-colors hover:text-primary" href="https://www.linkedin.com/in/giuliano-pascarelli-097100190/">LinkedIn</a>
+              <a className="transition-colors hover:text-primary" href="https://github.com/lelox028">GitHub</a>
+              {/* <a className="transition-colors hover:text-primary" href="#">Twitter</a> */}
             </div>
           </div>
         </section>
@@ -251,13 +280,13 @@ function App() {
             <div className="flex h-10 w-10 items-center justify-center pixel-border bg-primary text-gb-bg0">
               <span className="material-symbols-outlined text-sm font-bold">code</span>
             </div>
-            <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">Shinji.dev</span>
+            <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">lelox's portofolio</span>
           </div>
-          <p className="text-lg">© 2024 Shinji. Built with passion and clean code.</p>
-          <div className="flex gap-8 text-lg font-bold text-gb-fg0">
+          <p className="text-lg">© 2026 Giuliano Pascarelli. Built with passion and clean code.</p>
+          {/* <div className="flex gap-8 text-lg font-bold text-gb-fg0">
             <a className="hover:text-primary" href="#">Privacy</a>
             <a className="hover:text-primary" href="#">Cookies</a>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
