@@ -112,7 +112,7 @@ function App() {
                     <img alt="Juliette's Kitchen Timer" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/juliettesKitchenTimer.png" />
                   </div>
                   <div className="px-2">
-                    <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">Full-stack Dev</p>
+                    <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">React &amp; Vite</p>
                     <h3 className="mb-2 text-2xl font-bold">Juliette's Kitchen Timer</h3>
                     <p className="text-lg leading-relaxed">Juliette's Kitchen Timer is a lightweight Progressive Web App designed to help you focus using the Pomodoro technique — with the company of Juliette, a tiny pastry-chef cat who bakes delicious treats while you work.
                     </p>
