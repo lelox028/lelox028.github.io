@@ -82,36 +82,43 @@ function App() {
               </a>
             </div>
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
-              <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
-                <div className="aspect-square overflow-hidden pixel-border bg-primary/10">
-                  <img alt="Guia Puntana" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/guiaPuntana.png" />
+              <a href="https://www.guiapuntana.com.ar/" target="_blank">
+                <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
+                  <div className="aspect-square overflow-hidden pixel-border bg-primary/10">
+                    <img alt="Guia Puntana" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/guiaPuntana.png" />
+                  </div>
+                  <div className="px-2">
+                    <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-orange">Nextjs &amp; TypeScript</p>
+                    <h3 className="mb-2 text-2xl font-bold">Guia Puntana</h3>
+                    <p className="text-lg leading-relaxed">Open-source platform designed to connect entrepreneurs and local service providers from San Luis, Argentina, with citizens seeking reliable services directly and free of charge.</p>
+                  </div>
                 </div>
-                <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-orange">Nextjs &amp; TypeScript</p>
-                  <h3 className="mb-2 text-2xl font-bold">Guia Puntanta</h3>
-                  <p className="text-lg leading-relaxed">Open-source platform designed to connect entrepreneurs and local service providers from San Luis, Argentina, with citizens seeking reliable services directly and free of charge.</p>
+              </a>
+              <a href="https://study-plan-manager-frontend-react.vercel.app" target="_blank">
+                <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
+                  <div className="aspect-square overflow-hidden pixel-border bg-gb-orange/10">
+                    <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/SPM.png" />
+                  </div>
+                  <div className="px-2">
+                    <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Full-stack Dev</p>
+                    <h3 className="mb-2 text-2xl font-bold">Study Plan Manager</h3>
+                    <p className="text-lg leading-relaxed">Companion designed to help students manage their study program and schedule, allowing for a better and more optimized use of their time. </p>
+                  </div>
                 </div>
-              </div>
-              <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
-                <div className="aspect-square overflow-hidden pixel-border bg-gb-orange/10">
-                  <img alt="Study Plan Manager" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/SPM.png" />
+              </a>
+              <a href="https://julietteskitchentimer.vercel.app/" target="_blank">
+                <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
+                  <div className="aspect-square overflow-hidden pixel-border bg-gb-purple/10">
+                    <img alt="Juliette's Kitchen Timer" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/juliettesKitchenTimer.png" />
+                  </div>
+                  <div className="px-2">
+                    <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">Full-stack Dev</p>
+                    <h3 className="mb-2 text-2xl font-bold">Juliette's Kitchen Timer</h3>
+                    <p className="text-lg leading-relaxed">Juliette's Kitchen Timer is a lightweight Progressive Web App designed to help you focus using the Pomodoro technique — with the company of Juliette, a tiny pastry-chef cat who bakes delicious treats while you work.
+                    </p>
+                  </div>
                 </div>
-                <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-primary">Full-stack Dev</p>
-                  <h3 className="mb-2 text-2xl font-bold">Study Plan Manager</h3>
-                  <p className="text-lg leading-relaxed">Companion designed to help students manage their study program and schedule, allowing for a better and more optimized use of their time. </p>
-                </div>
-              </div>
-              <div className="group flex flex-col gap-5 overflow-hidden pixel-border bg-gb-bg2 p-4 transition-all hover:-translate-y-1">
-                <div className="aspect-square overflow-hidden pixel-border bg-gb-purple/10">
-                  <img alt="Healthcare Portal" className="h-full w-full object-cover pixelated-img transition-transform duration-500 group-hover:scale-110" src="../img/tramitesSanLuis.png" />
-                </div>
-                <div className="px-2">
-                  <p className="mb-1 text-lg font-bold uppercase tracking-wider text-gb-purple">Full-stack Dev</p>
-                  <h3 className="mb-2 text-2xl font-bold">San Luis Tramites</h3>
-                  <p className="text-lg leading-relaxed">Web platform that aggregates and organizes information about public procedures in San Luis, Argentina, helping citizens quickly find requirements, documentation, and steps for completing government services.</p>
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </section>
@@ -244,27 +251,27 @@ function App() {
         </section>
 
         {/* Contact */}
-        <section className="mx-auto max-w-7xl px-6 py-24 lg:px-20" id="contact">
-          <div className="flex flex-col items-center gap-12 pixel-border bg-gb-fg0 p-8 text-center text-gb-bg0 lg:p-20">
-            <div className="max-w-2xl">
-              <h2 className="mb-6 text-4xl font-bold tracking-tight uppercase" style={{ color: '#fbf1c7' }}>
+        <section className="mx-auto max-w-7xl px-2 sm:px-4 py-16 sm:py-20 lg:px-20 lg:py-24" id="contact">
+          <div className="flex flex-col items-center gap-8 sm:gap-12 pixel-border bg-gb-fg0 p-4 sm:p-8 text-center text-gb-bg0 lg:p-20 w-full">
+            <div className="w-full max-w-2xl">
+              <h2 className="mb-6 text-3xl sm:text-4xl font-bold tracking-tight uppercase" style={{ color: '#fbf1c7' }}>
                 Ready to start a conversation?
               </h2>
-              <p className="mb-10 text-2xl text-gb-bg2">
+              <p className="mb-8 sm:mb-10 text-lg sm:text-2xl text-gb-bg2">
                 Whether you have a specific project in mind or just want to say hi, I'm always happy to connect and talk shop.
               </p>
-              <div className="flex flex-col items-center justify-center gap-8 md:flex-row">
-                <a className="flex items-center gap-3 pixel-button bg-primary px-8 py-4 text-2xl font-bold text-gb-bg0 transition-all" href="mailto:giulianopascarelli@gmail.com">
+              <div className="flex flex-col gap-4 sm:gap-8 w-full sm:flex-row sm:items-center sm:justify-center">
+                <a className="flex w-full sm:w-auto items-center justify-center gap-3 pixel-button bg-primary px-4 sm:px-8 py-3 sm:py-4 text-lg sm:text-2xl font-bold text-gb-bg0 transition-all" href="mailto:giulianopascarelli@gmail.com">
                   <span className="material-symbols-outlined">mail</span>
-                  giulianopascarelli@gmail.com
+                  <span className="truncate">giulianopascarelli@gmail.com</span>
                 </a>
-                <a className="flex items-center gap-3 pixel-button border-4 border-gb-bg0 bg-transparent px-8 py-4 text-2xl font-bold transition-all hover:bg-gb-bg0 hover:text-gb-fg0" href="/cv.pdf" download>
+                <a className="flex w-full sm:w-auto items-center justify-center gap-3 pixel-button border-4 border-gb-bg0 bg-transparent px-4 sm:px-8 py-3 sm:py-4 text-lg sm:text-2xl font-bold transition-all hover:bg-gb-bg0 hover:text-gb-fg0" href="/cv.pdf" download>
                   <span className="material-symbols-outlined">description</span>
-                  Download CV
+                  <span className="truncate">Download CV</span>
                 </a>
               </div>
             </div>
-            <div className="flex gap-10 text-xl font-bold text-gb-bg2">
+            <div className="flex flex-wrap justify-center gap-6 sm:gap-10 text-lg sm:text-xl font-bold text-gb-bg2 w-full">
               <a className="transition-colors hover:text-primary" href="https://www.linkedin.com/in/giuliano-pascarelli-097100190/">LinkedIn</a>
               <a className="transition-colors hover:text-primary" href="https://github.com/lelox028">GitHub</a>
               {/* <a className="transition-colors hover:text-primary" href="#">Twitter</a> */}
@@ -280,7 +287,7 @@ function App() {
             <div className="flex h-10 w-10 items-center justify-center pixel-border bg-primary text-gb-bg0">
               <span className="material-symbols-outlined text-sm font-bold">code</span>
             </div>
-            <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">lelox's portofolio</span>
+            <span className="text-xl font-display font-bold tracking-tight text-gb-fg0">Giuliano's portofolio</span>
           </div>
           <p className="text-lg">© 2026 Giuliano Pascarelli. Built with passion and clean code.</p>
           {/* <div className="flex gap-8 text-lg font-bold text-gb-fg0">
@@ -289,7 +296,7 @@ function App() {
           </div> */}
         </div>
       </footer>
-    </div>
+    </div >
   )
 }
 
