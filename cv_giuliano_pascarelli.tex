@@ -1,0 +1,122 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{cmap}
+\usepackage[left=1.4cm,top=0.7cm,right=1.4cm,bottom=0.45cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.93}
+\hypersetup{ 
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue
+}
+
+% ---- Formato de secciones ----
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{0.5pt}\hrule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% ---- Comando para encabezados de experiencia/proyectos (texto plano, sin tablas, ATS-friendly) ----
+\newcommand{\entryheader}[2]{\textbf{#1}\\ \textit{#2}\\[1pt]}
+
+\begin{document}
+\pagestyle{empty}
+
+% ================= HEADER =================
+\begin{center}
+    {\LARGE \textbf{Giuliano Pascarelli}}\\
+    \vspace{2pt}
+    {\normalsize Desarrollador Full Stack}\\
+    \vspace{1.5pt}
+    \small
+    San Luis, Argentina \textbullet\ giulianopascarelli@gmail.com \textbullet\ +54 2664 857382\\
+    \href{https://lelox028.github.io/}{Portfolio} \textbullet\
+    \href{https://www.linkedin.com/in/giuliano-pascarelli-097100190/}{LinkedIn} \textbullet\
+    \href{https://github.com/lelox028}{GitHub}
+\end{center}
+
+\vspace{2pt}
+\hrule
+
+% ================= PERFIL =================
+\section*{Perfil Profesional}
+Desarrollador Full Stack con más de 3 años de experiencia construyendo aplicaciones web, con especial fortaleza en Frontend (React, Next.js) y bases sólidas en Backend (Java, Node.js, APIs REST). Experiencia liderando equipos pequeños de desarrollo, capacitando a más de 20 desarrolladores junior y dictando cursos de programación. Cómodo trabajando con bases de datos SQL, metodologías ágiles (Scrum/Kanban) y contribuyendo a proyectos de código abierto orientados a la comunidad.
+
+% ================= EXPERIENCIA =================
+\section*{Experiencia}
+
+\entryheader{Desarrollador Backend / Full Stack --- SimpleDevsSL (Iniciativa Open Source)}{Diciembre 2025 -- Actualidad}
+Iniciativa colaborativa y sin fines de lucro que desarrolla soluciones de software open source para problemáticas reales de la comunidad de San Luis, Argentina.
+\begin{itemize}[noitemsep, topsep=1pt, partopsep=0pt, leftmargin=16pt]
+    \item Colaboración con un equipo reducido de desarrolladores en el diseño y desarrollo de proyectos de software libre orientados a resolver necesidades reales de la comunidad.
+    \item Contribución principal en desarrollo backend, arquitectura de software y planificación técnica, participando también en frontend, infraestructura y despliegue según necesidad del proyecto.
+    \item Desarrollo colaborativo de Guía Puntana, plataforma web para conectar talento y servicios locales.
+\end{itemize}
+
+\vspace{2pt}
+\entryheader{Desarrollador Full Stack / Team Leader --- Aptugo, Warwick, Reino Unido (remoto desde Argentina)}{Febrero 2021 -- Abril 2024}
+Me incorporé a Aptugo con conocimientos iniciales de programación y, a través de un proceso de aprendizaje autodidacta y trabajo constante, crecí hasta liderar un equipo de desarrollo como Team Leader, combinando roles de desarrollo, liderazgo técnico y capacitación en un entorno startup de ritmo acelerado.
+\begin{itemize}[noitemsep, topsep=1pt, partopsep=0pt, leftmargin=16pt]
+    \item Desarrollo de aplicaciones web full stack con el stack MERN (MongoDB, Express, React, Node.js) e interfaces responsive con React, SCSS y Material UI.
+    \item Diseño e integración de APIs REST y mantenimiento de bases de datos NoSQL (MongoDB).
+    \item Coordinación técnica de un equipo de hasta 3 desarrolladores como Team Leader, y capacitación de más de 20 desarrolladores junior con niveles de experiencia previa muy variados.
+    \item Dictado de cursos de programación a clientes externos sobre la herramienta low-code de la empresa, enseñando fundamentos de programación tradicional y su equivalencia con conceptos low-code.
+    \item Trabajo bajo metodologías ágiles (Scrum y Kanban).
+\end{itemize}
+
+\vspace{2pt}
+\entryheader{Profesor Particular de Programación Orientada a Objetos (POO) --- Independiente}{Freelance}
+Clases particulares de POO a estudiantes y autodidactas, aplicando la experiencia adquirida como tutor y capacitador en Aptugo.
+
+% ================= PROYECTOS =================
+\section*{Proyectos}
+
+\entryheader{Gym Tracker --- React, Vite, Hono, Cloudflare Workers}{\href{https://gym-tracker-frontend.giulianopascarelli.workers.dev/}{gym-tracker-frontend.giulianopascarelli.workers.dev}}
+Aplicación web mobile-first para gestionar ejercicios y entrenamientos de gimnasio. Frontend en React y Vite, API en Hono con base de datos SQL (D1), con despliegue completo en Cloudflare Workers. Proyecto personal.
+
+\vspace{2pt}
+\entryheader{Study Plan Manager --- React, Node.js, Express}{\href{https://github.com/lelox028/study-plan-manager-frontend-react}{Repo Frontend} \textbullet\ \href{https://github.com/lelox028/study-plan-manager-api}{Repo Backend}}
+Aplicación full stack personal para ayudar a estudiantes a organizar su plan de estudios y cronograma académico. Proyecto individual, actualmente en un 80\% de avance.
+
+\vspace{2pt}
+\entryheader{Juliette's Kitchen Timer --- React, Vite}{\href{https://julietteskitchentimer.vercel.app/}{julietteskitchentimer.vercel.app}}
+PWA liviana basada en la técnica Pomodoro, con una estética ilustrada propia y una mascota animada que acompaña las sesiones de trabajo. Proyecto personal.
+
+% ================= EDUCACIÓN =================
+\section*{Educación}
+\textbf{Licenciatura en Informática} (en curso) --- Universidad Siglo 21, Córdoba, Argentina\\
+\textit{2024 -- Actualidad}
+\begin{itemize}
+    \item Título intermedio de \textbf{Analista en Sistemas} obtenido\\
+    \textit{Julio 2026}
+\end{itemize}
+
+% \vspace{2pt}
+% \textbf{Título Secundario} --- Colegio Don Bosco, San Luis, Argentina\\
+% \textit{2012 -- 2018}
+
+% ================= PERFIL TÉCNICO =================
+\section*{Perfil Técnico}
+
+\textbf{Lenguajes:} Java, JavaScript, TypeScript, C\\
+\textbf{Frontend:} React, Next.js, HTML, CSS, SCSS, Material UI\\
+\textbf{Backend:} Node.js, Express, Hono, Java (Spring Boot), APIs REST\\
+\textbf{Bases de Datos:} SQL (MySQL), Supabase, MongoDB (nivel básico)\\
+\textbf{Herramientas y metodologías:} Git, Docker (entorno personal), Cloudflare Workers, Maven, UNIX/Linux, shell scripting, Scrum, Kanban
+
+\vspace{1.5pt}
+\textbf{Habilidades blandas:} Liderazgo técnico y coordinación de equipos, mentoría y capacitación de perfiles junior, comunicación efectiva y trabajo en equipo, capacidad de aprendizaje autodidacta y resolución de problemas.
+
+\vspace{1.5pt}
+\textbf{Idiomas:} Español (Nativo), Inglés (Avanzado -- lectura, escritura y conversación)
+
+\vspace{1.5pt}
+\textbf{Intereses:} Proyectos de código abierto, aprendizaje continuo de nuevas tecnologías y personalización de sistemas Linux.
+
+\end{document}
