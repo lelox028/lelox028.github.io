@@ -1,0 +1,118 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{cmap}
+\usepackage[left=1.4cm,top=0.7cm,right=1.4cm,bottom=0.45cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\linespread{0.90}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    linkcolor=blue
+}
+
+% ---- Section formatting ----
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{0.5pt}\hrule]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% ---- Experience/project header command (plain text, ATS-friendly) ----
+\newcommand{\entryheader}[2]{\textbf{#1}\\ \textit{#2}\\[1pt]}
+
+\begin{document}
+\pagestyle{empty}
+
+% ================= HEADER =================
+\begin{center}
+    {\LARGE \textbf{Giuliano Pascarelli}}\\
+    \vspace{2pt}
+    {\normalsize Full Stack Developer}\\
+    \vspace{1.5pt}
+    \small
+    San Luis, Argentina \textbullet\ giulianopascarelli@gmail.com \textbullet\ +54 2664 857382\\
+    \href{https://lelox028.github.io/}{Portfolio} \textbullet\
+    \href{https://www.linkedin.com/in/giuliano-pascarelli-097100190/}{LinkedIn} \textbullet\
+    \href{https://github.com/lelox028}{GitHub}
+\end{center}
+
+\vspace{2pt}
+\hrule
+
+% ================= PROFILE =================
+\section*{Professional Profile}
+Full Stack Developer with more than 3 years of experience building web applications, with particular strength in Frontend (React, Next.js) and solid foundations in Backend (Java, Node.js, REST APIs). Experienced in leading small development teams, training more than 20 junior developers, and teaching programming courses. Comfortable working with SQL databases, agile methodologies (Scrum/Kanban), and contributing to community-oriented open source projects.
+
+% ================= EXPERIENCE =================
+\section*{Experience}
+
+\entryheader{Backend / Full Stack Developer --- SimpleDevsSL (Open Source Initiative)}{December 2025 -- Present}
+Collaborative, non-profit initiative that develops open source software solutions for real problems in the community of San Luis, Argentina.
+\begin{itemize}[noitemsep, topsep=1pt, partopsep=0pt, leftmargin=16pt]
+    \item Collaborate with a small team of developers in the design and development of free software projects focused on addressing real community needs.
+    \item Main contributions include backend development, software architecture, and technical planning, also participating in frontend, infrastructure, and deployment as needed by each project.
+    \item Contributed to the development of Guía Puntana, a web platform that connects local talent and services.
+\end{itemize}
+
+\vspace{2pt}
+\entryheader{Full Stack Developer / Team Leader --- Aptugo, Warwick, United Kingdom (remote from Argentina)}{February 2021 -- April 2024}
+I joined Aptugo with an initial knowledge of programming and, through self-directed learning and consistent work, grew into leading a development team as Team Leader while combining development, technical leadership, and training responsibilities in a fast-paced startup environment.
+\begin{itemize}[noitemsep, topsep=1pt, partopsep=0pt, leftmargin=16pt]
+    \item Developed full stack web applications with the MERN stack (MongoDB, Express, React, Node.js) and responsive interfaces with React, SCSS, and Material UI.
+    \item Designed and integrated REST APIs and maintained NoSQL databases (MongoDB).
+    \item Technically coordinated a team of up to 3 developers as Team Leader and trained more than 20 junior developers with varied levels of previous experience.
+    \item Taught programming courses to external clients about the company's low-code tool, explaining traditional programming fundamentals and their equivalents in low-code concepts.
+    \item Worked with agile methodologies (Scrum and Kanban).
+\end{itemize}
+
+\vspace{2pt}
+\entryheader{Object-Oriented Programming (OOP) Tutor --- Independent}{Freelance}
+Private OOP lessons for students and self-taught developers, applying the experience gained as a tutor and trainer at Aptugo.
+
+% ================= PROJECTS =================
+\section*{Projects}
+
+\entryheader{Gym Tracker --- React, Vite, Hono, Cloudflare Workers}{\href{https://gym-tracker-frontend.giulianopascarelli.workers.dev/}{gym-tracker-frontend.giulianopascarelli.workers.dev}}
+Mobile-first web application for managing gym exercises and workouts. Frontend built with React and Vite, API built with Hono and a SQL database (D1), with full deployment on Cloudflare Workers. Personal project.
+
+\vspace{2pt}
+\entryheader{Study Plan Manager --- React, Node.js, Express}{\href{https://github.com/lelox028/study-plan-manager-frontend-react}{Frontend Repo} \textbullet\ \href{https://github.com/lelox028/study-plan-manager-api}{Backend Repo}}
+Personal full stack application designed to help students organize their study plan and academic schedule. Individual project currently 80\% complete.
+
+\vspace{2pt}
+\entryheader{Juliette's Kitchen Timer --- React, Vite}{\href{https://julietteskitchentimer.vercel.app/}{julietteskitchentimer.vercel.app}}
+Lightweight PWA based on the Pomodoro technique, with its own illustrated aesthetic and an animated mascot that accompanies work sessions. Personal project.
+
+% ================= EDUCATION =================
+\section*{Education}
+\textbf{Bachelor's Degree in Computer Science} (in progress) --- Universidad Siglo 21, Córdoba, Argentina\\
+\textit{2024 -- Present}
+\begin{itemize}
+    \item Intermediate degree of \textbf{Systems Analyst} obtained\\
+    \textit{July 2026}
+\end{itemize}
+
+% ================= TECHNICAL PROFILE =================
+\section*{Technical Profile}
+
+\textbf{Languages:} Java, JavaScript, TypeScript, C\\
+\textbf{Frontend:} React, Next.js, HTML, CSS, SCSS, Material UI\\
+\textbf{Backend:} Node.js, Express, Hono, Java (Spring Boot), REST APIs\\
+\textbf{Databases:} SQL (MySQL), Supabase, MongoDB (basic level)\\
+\textbf{Tools and methodologies:} Git, Docker (personal environment), Cloudflare Workers, Maven, UNIX/Linux, shell scripting, Scrum, Kanban
+
+\vspace{1.5pt}
+\textbf{Soft skills:} Technical leadership and team coordination, mentoring and training junior profiles, effective communication and teamwork, self-directed learning, and problem-solving.
+
+\vspace{1.5pt}
+\textbf{Languages:} Spanish (Native), English (Advanced -- reading, writing, and conversation)
+
+\vspace{1.5pt}
+\textbf{Interests:} Open source projects, continuous learning of new technologies, and Linux system customization.
+
+\end{document}
